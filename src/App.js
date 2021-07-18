@@ -28,15 +28,15 @@ function App() {
         }
       </Button>
 
-      <Button onClick={() => {setAddBox(!addBox)}} > 
+      <Button onClick={() => {setAddCircle(!addCircle)}} > 
         { addCircle ? 
           <AddCircleIcon fontSize="large"/> : 
           <AddCircleOutlineOutlinedIcon fontSize="large"/> 
         }
       </Button>
 
-      <Button onClick={() => {setAddBox(!addBox)}} > 
-        { addBox ? 
+      <Button onClick={() => {setArrow(!arrow)}} > 
+        { arrow ? 
           <ArrowForwardOutlinedIcon fontSize="large"/> : 
           <ArrowForwardIosIcon fontSize="large"/> 
         }
